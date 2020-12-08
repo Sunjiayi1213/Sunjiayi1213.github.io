@@ -1,13 +1,13 @@
 # Levy Processes
 
-![](images/300.jpg "A kitten")
+![](300.jpg "A kitten")
 
-![](images/450.jpg "First of two kittens")
-![](images/450.jpg "Second of two kittens")
+![](/450.jpg "First of two kittens")
+![](/450.jpg "Second of two kittens")
 
-![](images/350.jpg)
-![](images/350.jpg)
-![](images/350.jpg)
+![](/350.jpg)
+![](/350.jpg)
+![](/350.jpg)
 
 The measure \\(\mu\\) is called \\(\sigma\\) **-finite** if \\(X\\) is the *countable union*  of measurable sets with finite measure. A set in a measure space is said to have \\(\sigma\\) **-finite measure** if it is a countable union of sets with finite measure.
 
