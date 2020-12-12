@@ -2,8 +2,7 @@
 
 ## 西安
 
-
-![xian](image/xian.JPG) 
+<img src="image/xian.JPG" alt="xian" style="zoom:33%;" /> 
 
 如果非要用一个词来表达“西安是一个什么样的城市”，那么我想这个词一定是：**灿若星辰**
 
@@ -29,7 +28,7 @@
 
 ## 成都
 
-![IMG_4922](image/IMG_4922.JPG)
+<img src="image/IMG_4922.JPG" alt="IMG_4922" style="zoom:33%;" />
 
 在成都，时间过得很慢，这是一座**慢悠悠**的城市，慵懒、闲适、悠哉悠哉是这里的品性。
 
