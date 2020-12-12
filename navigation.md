@@ -2,19 +2,19 @@
 
 [About](index.md)
 
-[English]()
+[Home]()
 
-  * [A Thought on English](english/english-formula.md)
-  * [Phonetic Phonics](english/Phonetic-Phonics.md)
-  - - - -
+  * [Hometown](english/english-formula.md)
+  * [Family](english/Phonetic-Phonics.md)
+- - - -
   * # Advanced
-  * [Stress and Syllables](english/stress.md)
+  * [My new home](english/stress.md)
 
-[Math]()
+[Travelling]()
 
-  * [Levy Processes](math/levy_processes.md)
+  * [Travell route](math/levy_processes.md)
 
-[Coding](coding/PythonNote.md)
+[Daily life](coding/PythonNote.md)
 
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
