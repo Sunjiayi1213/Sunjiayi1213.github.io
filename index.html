@@ -86,6 +86,173 @@
         font-size: smaller;
         padding: 1em;
     }
+<body>
+  <!-- header -->
+  <header class="w3l-header">
+    <div class="hero-header-11">
+      <div class="hero-header-11-content">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl navbar-light py-sm-2 py-1 px-0">
+            <a class="navbar-brand editContent" href="index.html">Mix</a>
+            <!-- if logo is image enable this   
+				<a class="navbar-brand" href="#index.html">
+						<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+				</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#traveling">travelling</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Blocks
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="index.html#stats">Fun Facts</a>
+                    <a class="dropdown-item" href="index.html#testimonials">Testimonials</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- //header -->
+  <!--  Main banner section -->
+  <section class="w3l-main-banner">
+    <div class="companies20-content">
+      <div class="companies-wrapper">
+        <div class="item">
+          <li>
+            <div class="slider-info banner-view">
+              <div class="banner-info container">
+                <h3 class="banner-text"><small>Hello, I’m</small><br>
+                  Christopher
+                </h3>
+                <p class="my-4 mb-5">UI/UX Designer</p><br>
+                <a href="#gallery" class="btn btn-primary theme-button mr-3">My Work</a>
+                <a href="#about.html" class="btn btn-outline-primary theme-button">KNOW Me</a>
+              </div>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  //Main banner section -->
+  <!--  About section -->
+  <div class="w3l-about1 pt-5" id="about">
+    <div class="container pt-lg-3">
+      <h3 class="global-title">About Me</h3>
+      <div class="aboutgrids row">
+        <div class="col-lg-6 aboutgrid2">
+          <img src="assets/images/about.jpg" alt="about image" class="img-fluid" />
+        </div>
+        <div class="col-lg-6 aboutgrid1 my-lg-0 my-5">
+          <h4>Know me</h4>
+          <p>I love to work in NJU.  I love to solve the design problem and find easy and better
+            solutions to solve it. I always try my best to make good user interface with the best user experience. 
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutbottom py-5">
+      <div class="container py-lg-3">
+        <div class="bottomgrids row">
+          <div class="col-lg-3 col-md-6 bottomgrid1 mt-lg-0 mt-0">
+   
+  <!--  //About section -->
+  
+  </footer>
+  <!-- Footer -->
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Template JavaScript -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+      });
+
+      $('.popup-with-move-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-slide-bottom'
+      });
+    });
+  </script>
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+
+  <script src="assets/js/smartphoto.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sm = new SmartPhoto(".js-img-viwer", {
+        showAnimation: false
+      });
+      // sm.destroy();
+    });
+  </script>
+
+
+</body>
+
+</html>
     </style>
 
 <!-- START extlib/css/highlight.github.css -->
