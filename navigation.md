@@ -5,7 +5,7 @@
 [Home]()
 
   * [Hometown](english/english-formula.md)
-  * [Family](english/Phonetic-Phonics.md)
+  * [Leave Home](english/Phonetic-Phonics.md)
 - - - -
   * # Advanced
   * [My new home](english/stress.md)
